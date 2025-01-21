@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Noto Sans;
+}
+/* header */
+header{
+    position: fixed;
+    margin-top: 0;
+    width: 100%;
+    background-color: red;
+}
+nav{
+    margin-top: 2px;
+}
+nav>ul{
+    display: flex;
+    flex-flow: wrap row;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.5rem;
+}
+.reservar_b{
+    border: 1px solid whitesmoke ;
+    padding: 10px 12px;
+}
+img{
+    max-width: 100%;
+}
+#logo{
+    width: 90%;
+}
+/* main */
+#home{
+    background-image: url(./img/consola_mario.PNG);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{  
+   color: whitesmoke;
+    font-size: 5rem;
+}
+#mascara{
+    display: flex;
+    align-items: center;
+    flex-flow: wrap column; 
+    width: 50%;
+    margin: auto;
+    justify-content: space-between;
+    height: 80vh;
+    margin-top: 5%;
+}
+#mascara>div>h2{
+    text-align: center;
+}
+#mascara>p{
+    font-size: 1.2rem;
+    text-align: center;
+}
+#reservarn{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black ;
+    padding: 10px 12px;
+}
+#joycon{
+    margin-top: 5%;
+    background-color: red;
+    display: flex;
+    flex-flow: wrap row ;
+    justify-content: space-between;
+}
+#medio1{
+    width: 30%;
+}
+#medio2{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap column; 
+    padding-right: 10%;
+}
+#medio2>p{
+    text-align: center;
+    color: whitesmoke;
+}
+#medio2>div{
+    display: flex;
+    flex-flow: wrap row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+#medio2>div>div{
+    display: flex;
+    justify-content: space-evenly;
+}
+#medio2 h2{
+    font-size: 3rem;
+    color: whitesmoke;
+}
+
+#medio2>div>img{
+    width: 10%;
+}
+#medio2>a{
+    text-decoration: none;
+    color: white;
+    margin-top: 1%;
+}
+.joys{
+    width: 20%;
+}
+#novedades{
+    background-color: red;
+    padding: 5%;
+}
+#novedades>ul{
+    list-style: none;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+}
+#novedades>h2{
+    color: whitesmoke;
+    font-size: 2.5rem;
+}
+footer{
+    background-color: red;
+    text-align: center;
+    border-top: 1px solid rgba(245, 245, 245, 0.623);
+}
+footer>p{
+    padding: 2% 0%;
+    font-size: 1.5rem;
+}
